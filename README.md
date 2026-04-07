@@ -20,6 +20,3 @@ Calculates the molecular upper state and total column density from a FITS spectr
 
 ### `line_data_extraction.ipynb`
 Parses a molecular line list exported from CASSIS as a `.txt` file. Extracts the transition name, species ID, frequency, upper state energy, and Einstein A coefficient, then copies the result to the clipboard ready to paste into Excel.
-
-### `CS-97dot9-dot98.FITS`
-ALMA spectral cube of the CS J=2→1 transition at ~97.98 GHz, used as input to `col_dens_calculator.ipynb`.
